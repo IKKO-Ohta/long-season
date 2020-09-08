@@ -20,12 +20,20 @@ export const Header: React.FC = () => (
       <p style={{ color: 'white' , fontSize: "24px" }}>{config.siteName}</p>
     </a>
     <div style={{ flex: 1 }} />
-    <a href="https://github.com/IKKO-Ohta" style={{ textDecoration: 'none' }}>
+    <a href="https://github.com/IKKO-Ohta">
     <img
-        src="/GitHub-Mark-32px.png"
+        src="/GitHub-Mark-Light-32px.png"
         alt="github icon"
         height="32"
         width="32"
+      />
+    </a>
+    <a href="/rss.xml" style={{ marginLeft: "1rem" }}>
+      <img
+        src="/rss-white.svg"
+        alt="RSS Feed"
+        height="30"
+        width="30"
       />
     </a>
   </div>
