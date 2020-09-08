@@ -17,14 +17,16 @@ export const Header: React.FC = () => (
     }}
   >
     <a href="/" style={{ textDecoration: 'none' }}>
-      <p style={{ color: 'white' }}>{config.siteName}</p>
+      <p style={{ color: 'white' , fontSize: "24px" }}>{config.siteName}</p>
     </a>
     <div style={{ flex: 1 }} />
-    <a href="https://github.com/vriad/devii" style={{ textDecoration: 'none' }}>
-      <p style={{ padding: '0px 1em', color: 'white' }}>GitHub</p>
-    </a>
-    <a href="/blog/the-ultimate-tech-stack" style={{ textDecoration: 'none' }}>
-      <p style={{ padding: '0px 1em', color: 'white' }}>Motivation</p>
+    <a href="https://github.com/IKKO-Ohta" style={{ textDecoration: 'none' }}>
+    <img
+        src="/GitHub-Mark-32px.png"
+        alt="github icon"
+        height="32"
+        width="32"
+      />
     </a>
   </div>
 );
