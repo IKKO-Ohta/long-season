@@ -2,7 +2,7 @@
   <h1 align="center">Long Season by devii</h1>
 </p>
 <p align="center">
-  Long Season is IKKO-Ohta's blog app based by <a href="https://github.com/vriad/devii" target="_blank">devii</a>. 
+  Long Season is IKKO-Ohta's blog app based on <a href="https://github.com/vriad/devii" target="_blank">devii</a>. 
   Thank you <a href="https://twitter.com/vriad" target="_blank">@vriad</a>!
 </p>
 
